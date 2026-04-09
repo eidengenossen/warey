@@ -1,0 +1,19 @@
+#!/usr/bin/bash
+
+# 1. Mount essential virtual filesystems
+/usr/bin/mount -t proc proc /proc
+/usr/bin/mount -t sysfs sysfs /sys
+/usr/bin/mount -t devtmpfs devtmpfs /dev
+
+# 2. Clear the screen and show the logo
+echo -e "\033[35m"
+echo "  _      __                 "
+echo " | | /| / /__ _________ __ _"
+echo " | |/ |/ / _ \`/ __/ -_) // /"
+echo " |__/|__/\_,_/_/  \__/\_, / "
+echo "                     /___/  "
+echo -e "\033[0m"
+echo "Starting Warey..."
+
+# 3. Start the Bash shell using the profile we just made
+exec /usr/bin/bash --login

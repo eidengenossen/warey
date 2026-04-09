@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+# Mount the required virtual filesystems
+/usr/bin/mount -t proc proc /proc
+/usr/bin/mount -t sysfs sysfs /sys
+/usr/bin/mount -t devtmpfs devtmpfs /dev
+
+echo -e "\033[35mWarey Initialized\033[0m"
+
+# Execute the GNU Bash shell
+exec /usr/bin/bash

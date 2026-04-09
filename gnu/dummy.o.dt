@@ -1,0 +1,15 @@
+/home/eidengenossen/code/ware/warey/gnu/dummy.o: \
+ /home/eidengenossen/code/ware/warey/gnu/dummy.c ../include/stdc-predef.h \
+ /home/eidengenossen/code/ware/warey/gnu/libc-modules.h \
+ ../include/libc-symbols.h ../include/libc-misc.h \
+ /home/eidengenossen/code/ware/warey/gnu/config.h \
+ ../sysdeps/generic/libc-symver.h ../include/libc-diag.h \
+ ../sysdeps/generic/symbol-hacks.h
+../include/stdc-predef.h:
+/home/eidengenossen/code/ware/warey/gnu/libc-modules.h:
+../include/libc-symbols.h:
+../include/libc-misc.h:
+/home/eidengenossen/code/ware/warey/gnu/config.h:
+../sysdeps/generic/libc-symver.h:
+../include/libc-diag.h:
+../sysdeps/generic/symbol-hacks.h:
